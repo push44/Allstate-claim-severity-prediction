@@ -23,6 +23,9 @@ Allstate is an personal insurance company in the United States. The purpose of t
 * numpy
 * jupyter
 * sklearn
+* xgboost
+* keras tuner
+* tensorflow
 * etc. 
 
 ## Project Description
