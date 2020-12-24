@@ -1,11 +1,19 @@
 # Allstate-claim-severity-prediction
 
-readme template: https://github.com/sfbrigade/data-science-wg/blob/master/dswg_project_resources/Project-README-template.md
+## Project Requirement:
+Allstate is an personal insurance company in the United States. Predicting clients' claim severities are essential for insurance companies for their risk managements. This project is my first data science project where conduct several steps of the data science life cycle such EDA, Feature engineering, Feature selection, Machine learning models' performance analysis, etc.
 
-#### -- Project Status: [Completed]
+## Files used in the project:
+<ol>
+  <li>EDA.ipynb</li>
+  <li>feature-extraction.ipynb</li>
+  <li>feature-selection.ipynb</li>
+  <li>ML algo analysis.ipynb</li>
+  <li>train-and-tune-on-selected-feat.ipynb</li>
+</ol>
 
-## Project Intro/Objective
-Allstate is an personal insurance company in the United States. The purpose of this project is to predict claims severity for the records of the test set. Though the train data set does not provide unit of the claims severity, values of the severity are continuous and hence this becomes a regression problem.
+## Machine learning problem formulation:
+
 
 ### Methods Used
 * Exploratory data analysis
