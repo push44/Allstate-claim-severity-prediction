@@ -39,11 +39,17 @@ The plot above shows right skewed target feature distribution. For regression we
 
 Similar to the target feature distribution, most of the 14 numerical features exhibit skewness.
 
-![alt text](correlation\ matrix.png)
+![alt text](correlation_matrix.png)
 
-Pair plots and correlation matrix shows collinearity among the continuous features. The effect of collinearity is reduced by subtracting one numerical feature from another who shows more than 70% of collinearty amongs each other.
+From the above matrix we can see many features highly correlated with each other.
+
+![alt_text](correlated_pair_plot.png)
+
+The above plot shows pair plots of the correlated features with more thatn 70% correlation. Pair plots and correlation matrix shows collinearity among the continuous features. The effect of collinearity is reduced by subtracting one numerical feature from another who shows more than 70% of collinearty amongs each other.
 
 ## Feature scaling:
+
+![alt_text](reduced_skewness.png)
 
 Skewness of the numerical features are reduced by applying appropriate feature transformations.
 
