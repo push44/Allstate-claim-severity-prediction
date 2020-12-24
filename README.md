@@ -29,7 +29,17 @@ Mean Absolute Error (MAE): <img src="https://render.githubusercontent.com/render
   <li>Number of numerical features: 16</li>
 </ul>
 
-## Key findings from EDA:
+## EDA:
+
+![alt text](loss.png)
+
+The plot above shows right skewed target feature distribution. For regression we prefer bell shape curve of the target feature distribution.
+
+![alt text](skewness.png)
+
+Similar to the target feature distribution, most of the 14 numerical features exhibit skewness.
+
+![alt text](correlation\ matrix.png)
 
 Pair plots and correlation matrix shows collinearity among the continuous features. The effect of collinearity is reduced by subtracting one numerical feature from another who shows more than 70% of collinearty amongs each other.
 
