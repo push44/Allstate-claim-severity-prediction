@@ -1,4 +1,5 @@
 # Allstate-claim-severity-prediction
+![alt_text](https://www.coughlincirclevilleford.com/static/dealer-10237/images/allstate-insurance.jpg)
 
 ## Project Requirement:
 Allstate is an personal insurance company in the United States. Predicting clients' claim severities are essential for insurance companies for their risk managements. This project is my first data science project where conduct several steps of the data science life cycle such EDA, Feature engineering, Feature selection, Machine learning models' performance analysis, etc.
