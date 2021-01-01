@@ -56,5 +56,19 @@ Skewness of the numerical features are reduced by applying appropriate feature t
 ## Feature Engineering:
 For the categorical features, various features were engineered based on the simple statics such as mean, standard deviation, probability of occurances, etc. Hence, in-total 1464 number of features were present after feature engineering step.
 
-## Feature Elemination:
+## Feature Elimination:
 Using random forest regressor as an estimator recursive feature elimination with cross validation were performed to eliminate less effective features. This step reduced from 1464 number of features to just 264 features.
+![alt_text](feature_elimination.png)
+
+## Machine learning models:
+
+|                  Model                  | Kaggle Score before Feature Extraction | Kaggle Score after Feature Extraction |
+|-----------------------------------------|----------------------------------------|---------------------------------------|
+|            Xgboost regressor            |                1255.57                 |                1153.21                |
+|              Random Forest              |                1324.09                 |                1189.91                |
+|              Neural Network             |                1268.66                 |                1226.69                |
+|             Ridge regression            |                1314.69                 |                1229.35                |
+| SGD with insensitive epsilon (SVR) loss |                1323.86                 |                1303.77                |
+|          SGD with squared loss          |                1362.61                 |                1344.99                |
+|           SGD with huber loss           |                1404.05                 |                1377.95                |
+|  Random guess from normal distribution  |                2536.12                 |                2530.64                |
